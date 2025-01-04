@@ -1,0 +1,40 @@
+auto_spacetrading~_toolicbm
+icbm
+ToolTemplate
+DefaultProjectile
+antimatterbomb
+auto_spacetools~_tacnuke
+spg_combat_antimatterbomb
+ExpansionPack1
+CombatConsumablePanel
+SG_antimatter_explosion_center
+auto_spacetools~_icbm
+warmonger-1
+weapon
+auto_spacetools~_antimatterbomb
+planet
+XSMT
+spacegame_tools
+city
+ufotools~	0x3064cb38
+civ_weapons_military_projectile_laser_2_muzzle
+toolicbm
+world
+upgrade
+citizen
+CG_nuke_projectile
+colonyobject
+spacetools~	0x30608f0b
+XSM
+animal
+nuclear
+CG_nuke_explosion_center
+tacnuke
+SG_ufo_ice_comet_collision_water
+spacetrading~	0x34d97fa
+SG_pulse_weapon_muzzle
+building
+rare
+SG_antimatter_weapon
+turret
+combat

@@ -1,0 +1,55 @@
+key parent spacetools~!ToolTemplate.prop
+string16 description "ICBM"
+int32 spaceToolBuyCost 100
+key spaceToolContext planet
+float spaceToolDamageArea 95
+texts spaceToolDescription
+	"Inter-Continental Ballistic Missile"
+end
+texts spaceToolDetailDescription
+	"A highly dangerous nuclear weapon that can completely ravage a city."
+end
+float spaceToolDetectableRange 2000
+bool spaceToolDisableOnHomeworld true
+bool spaceToolDisableOnSaveGames true
+float spaceToolEnergyCost 4
+key spaceToolImageID ufotools~!XSM.png
+texts spaceToolLockedDescription
+	(spacegame_tools!0xa0bb7099) "Requires ~commodity_requirements~"
+end
+float spaceToolMaxDamage 6000
+float spaceToolMinDamage 6000
+key spaceToolPanelKey CombatConsumablePanel
+float spaceToolRechargeRate 300
+key spaceToolStrategy DefaultProjectile
+key spaceToolType weapon
+int32 spaceToolUseCost 0
+key toolGenericEffectID SG_ufo_ice_comet_collision_water
+float toolHitAirAtmosphereVelocity 0
+float toolHitAirTemperatureVelocity 1000
+float toolHitAirWaterVelocity 0
+float toolHitCombatantAtmosphereVelocity 0
+key toolHitCombatantEffectID CG_nuke_explosion_center
+float toolHitCombatantTemperatureVelocity 1000
+float toolHitCombatantWaterVelocity 0
+float toolHitGroundAtmosphereVelocity 0
+key toolHitGroundEffectID CG_nuke_explosion_center
+float toolHitGroundTemperatureVelocity 1000
+float toolHitGroundWaterVelocity 0
+bool toolHitOrientsToTerrain true
+float toolHitWaterAtmosphereVelocity 0
+key toolHitWaterEffectID CG_nuke_explosion_center
+float toolHitWaterTemperatureVelocity 1000
+float toolHitWaterWaterVelocity 0
+bool toolIsHoming true
+key toolMuzzleEffectID civ_weapons_military_projectile_laser_2_muzzle
+bool toolPassThroughAll true
+float toolProjectileAcceleration 50
+key toolProjectileEffectID CG_nuke_projectile
+float toolProjectileExplosionExpansionRate 5000
+key toolProjectileMotion icbm
+float toolProjectileSpeed 150
+float toolProjectileTimeOut 25
+key toolProjectileType nuclear
+float toolRelationshipDelta -5
+int32 toolMilitaryRewardCount 3
