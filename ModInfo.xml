@@ -1,2 +1,2 @@
-<mod displayName="More Space Tools" unique="Starlight_MoreSpaceTools" description="This is an example Custom XML Installer for a hypothetical mod.&#xA;&#xA;TThis text is after a line break." installerSystemVersion="1.0.1.0" hasCustomInstaller="true" dllsBuild="2.5.20">
+<mod displayName="More Space Tools" unique="Starlight_MoreSpaceTools" description=" A mod that adds new tools to the space stage." installerSystemVersion="1.0.1.0" hasCustomInstaller="true" dllsBuild="2.5.20">
 </mod>
