@@ -1,0 +1,11 @@
+<mod displayName="My Mod" unique="MyMod" description="This is an example Custom XML Installer for a hypothetical mod.&#xA;&#xA;TThis text is after a line break." installerSystemVersion="1.0.1.0" hasCustomInstaller="true" dllsBuild="2.5.20">
+	<componentGroup unique="groupOne" displayName="This is a Group">
+		<component unique="optionOne" displayName="Option one" description="This is an option in a component group" game="GalacticAdventures?GalacticAdventures" defaultChecked="true">OptionOneA.package?OptionOneB.package</component>
+		<component unique="optionTwo" displayName="Option two" description=" " imagePlacement="InsteadOf" game="GalacticAdventures">OptionTwo.package</component>
+		<component unique="coreUI" displayName="Core Spore UI" description=" " imagePlacement="InsteadOf"/>
+	</componentGroup>
+	<component unique="togglableComponent" displayName="Togglable Component" description="This is a togglable component. It can be enabled or disabled by the user. It is enabled by default, as defined by the defaultChecked attribute." game="GalacticAdventures" defaultChecked="true">!!!!!!2018_DI_9_r_Beta2-2-9_UI-Audio_stable.package</component><prerequisite game="GalacticAdventures">Component.package</prerequisite>
+	<prerequisite game="GalacticAdventures">PrerequisiteFile.package</prerequisite>
+	<remove game="GalacticAdventures">NothingActuallyStartsWithThis*</remove>
+	<remove game="Spore">*NothingActuallyEndsWithThis.package</remove>
+</mod>
